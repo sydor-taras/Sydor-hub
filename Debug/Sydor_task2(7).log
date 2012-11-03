@@ -1,0 +1,30 @@
+﻿Построение начато 02.11.2012 21:03:49.
+     1>Проект "C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Sydor_task2(7)\Sydor_task2(7).vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Sydor_task2(7).unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Sydor_task2(7).pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Sydor_task2(7).cpp"
+         Sydor_task2(7).cpp
+     1>c:\documents and settings\user\my documents\visual studio 2010\projects\sydor_task2(7)\sydor_task2(7)\sydor_task2(7).cpp(121): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Debug\Sydor_task2(7).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Sydor_task2(7).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Debug\Sydor_task2(7).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Debug\Sydor_task2(7).lib" /MACHINE:X86 "Debug\Sydor_task2(7).exe.embed.manifest.res"
+         Debug\stdafx.obj
+         "Debug\Sydor_task2(7).obj"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Sydor_task2(7).exe.embed.manifest" /manifest "Debug\Sydor_task2(7).exe.intermediate.manifest"
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         Sydor_task2(7).vcxproj -> C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Debug\Sydor_task2(7).exe
+       FinalizeBuildStatus:
+         Файл "Debug\Sydor_task2(7).unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Sydor_task2(7).lastbuildstate".
+     1>Построение проекта "C:\Documents and Settings\User\My documents\Visual Studio 2010\Projects\Sydor_task2(7)\Sydor_task2(7)\Sydor_task2(7).vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.53
