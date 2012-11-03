@@ -1,6 +1,10 @@
 /**
 * main.cpp
+<<<<<<< HEAD
 * includes executive code, that performs task ¹ 7
+=======
+* includes executive code, that performs task ¹6
+>>>>>>> b9c560418e50983d7eebb37d56774aa841798b87
 * Copyright 2012 by Sydor Taras
 */
 #include <iostream>
@@ -12,6 +16,7 @@ using namespace std;
 
 void main(void)
 {
+<<<<<<< HEAD
 UL s;		
 s = Enter();
 cout<<"Binary : ";
@@ -37,6 +42,28 @@ UL MyFunc(UL a)										/**< this function performs exchange of neighboring bit
 	k=k&MASK_5;
 	a=a|k;											//make exchange
 	return a;										//returning changed number
+=======
+	UL s; 
+	s=Enter();													//reading a number from keyboard
+	cout<<"Binary : ";
+	for (char i=sizeof(UL)*8-1;i>=0;i--)							//print a binary code of a number
+		{
+			cout<<((s>>i)&1);
+		}
+	s=Exchange(s);													//call Exchange
+	cout<<endl<<"The number after MyFunc : "<<s<<endl;
+	cout<<"Binary : ";
+	for (char i=sizeof(UL)*8-1;i>=0;i--)							//print a binary code of a number
+	{
+		cout<<((s>>i)&1);
+	}
+	getch();
+}
+
+UL Exchange(UL a)											//this function makes all bits '0',except the younger one 
+{
+	return a&(~(a-1));										//returning changed number
+>>>>>>> b9c560418e50983d7eebb37d56774aa841798b87
 }
 
 UL Enter(void)
@@ -70,3 +97,9 @@ M1:	cout<<"Enter the number (max 10 symbols) : ";							//print message
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b9c560418e50983d7eebb37d56774aa841798b87
